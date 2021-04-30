@@ -1,9 +1,2 @@
-*,
-*:before,
-*:after {
-   box-sizing: border-box;
-}
-
-body {
-   margin: 0;
-}
+@import 'components/Bootstrapping.css';
+@import 'components/TheHeader.css';
