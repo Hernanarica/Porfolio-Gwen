@@ -1,0 +1,40 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+   -webkit-touch-callout: none;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@font-face {
+   font-family: Arvo;
+   src: url(../../assets/fonts/Arvo-Bold.ttf);
+   font-style: normal;
+   font-weight: 700;
+}
+
+@font-face {
+   font-family: Arvo;
+   src: url(../../assets/fonts/Arvo-Regular.ttf);
+   font-style: normal;
+   font-weight: 400;
+}
+
+body {
+   position: relative;
+   background-color: var(--darkColor-1);
+   font-family: var(--fontFamilyBase);
+}
+
+.wrapper {
+   max-inline-size: var(--wrapper);
+}
+
+.wrapper-content {
+   max-inline-size: var(--wrapper-content);
+}
+
+.wrapper,
+.wrapper-content {
+   margin-inline: auto;
+}

@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="src/css/styles.css"/>
+		<link rel="stylesheet" href="src/css/index.css"/>
 		<title>Porfolio Gwen</title>
 	</head>
 	<body>
@@ -13,7 +13,11 @@
 			<div class="wrapper">
 				<div class="wrapper-content">
 					<div class="header">
-						<h1 class="header__logo">Gwen Stacy</h1>
+						<h1 class="header__logo">Gwen Stacy
+							<a href="/" class="header__logo-link">
+								<img src="src/assets/imgs/logo.png" width="151" height="24" alt="Logo Gwen Stacy" class="header__logo-image">
+							</a>
+						</h1>
 						<nav class="header__menu">
 							<ul class="header__list">
 								<li class="header__item">
@@ -30,8 +34,8 @@
 								</li>
 							</ul>
 						</nav>
-						<button class="header__button close">
-							<img src="src/imgs/icon__menu-close.svg" alt="icon menú">
+						<button class="header__button close" aria-label="menu">
+							<img src="src/assets/icons/icon__menu-close.svg" alt="icon menú">
 						</button>
 					</div>
 				</div>

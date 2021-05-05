@@ -4,9 +4,9 @@ const $menu     = document.querySelector('.header__menu');
 
 $menuBtn.addEventListener('click', e => {
 	if (!e.target.classList.toggle('close')) {
-		changeStatusMenu('src/imgs/icon__menu-open.svg', 'flex', 'translateX(0)', true, 50);
+		changeStatusMenu('src/assets/icons/icon__menu-open.svg', 'flex', 'translateX(0)', true, 50);
 	} else {
-		changeStatusMenu('src/imgs/icon__menu-close.svg', 'none', 'translateX(-100%)', false, 350);
+		changeStatusMenu('src/assets/icons/icon__menu-close.svg', 'none', 'translateX(-100%)', false, 350);
 	}
 });
 

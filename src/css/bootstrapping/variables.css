@@ -1,0 +1,39 @@
+:root {
+   /* Fonts */
+   --fontFamilyBase: Arvo, Helvetica, sans-serif;
+
+   /* Titles */
+   --headLine-1: 700 4.5rem/5rem var(--fontFamilyBase);
+   --headLine-2: 700 4rem/4.75rem var(--fontFamilyBase);
+   --headLine-3: 700 2rem/2rem var(--fontFamilyBase);
+   --headLine-4: 700 1.5rem/1.65rem var(--fontFamilyBase);
+   --headLine-5: 700 1.25rem/1.65rem var(--fontFamilyBase);
+
+   /* Texts */
+   --body-1: 400 1.125rem/1.688rem var(--fontFamilyBase);
+   --bodyBold-1: 700 1.125rem/1.688rem var(--fontFamilyBase);
+   --body-2: 400 0.875rem/1.688rem var(--fontFamilyBase);
+   --bodyBold-2: 700 0.875rem/1.688rem var(--fontFamilyBase);
+   --buttonFont: 400 1.125rem/1.688rem var(--fontFamilyBase);
+   --captionFont: 400 0.75rem/1.688rem var(--fontFamilyBase);
+
+   /* Colors */
+   --primaryColor: #5928E5;
+   --secondaryColor: #72757E;
+   --tertiaryColor: #2CB67D;
+   --whiteColor: #FFFFFE;
+   --grayColor: #94A1B2;
+   --darkColor-1: #16161A;
+   --darkColor-2: #242629;
+   --buttonColor: #7F5AF0;
+
+   /* Components */
+   --buttonPaddingX-md: 1.5rem;
+   --buttonPaddingY-md: 0.75rem;
+   --buttonPaddingX-lg: 4rem;
+   --buttonPaddingY-lg: 1.188rem;
+
+   /* Wrappers */
+   --wrapper: 1366px;
+   --wrapper-content: 1188px;
+}
