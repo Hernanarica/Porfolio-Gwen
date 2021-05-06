@@ -32,6 +32,7 @@
    --buttonPaddingY-md: 0.75rem;
    --buttonPaddingX-lg: 4rem;
    --buttonPaddingY-lg: 1.188rem;
+   --buttonRadius: 0.25rem;
 
    /* Wrappers */
    --wrapper: 1366px;

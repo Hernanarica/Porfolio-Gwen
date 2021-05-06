@@ -1,5 +1,12 @@
+/* Archivos iniciales y esenciales */
 @import "bootstrapping/normalize.css";
 @import "bootstrapping/variables.css";
 @import "bootstrapping/Bootstrapping.css";
+
+/* Componentes de mi web */
 @import 'components/TheHeader.css';
 @import 'components/logo.css';
+@import 'components/button.css';
+
+/* Secciones de mi web */
+@import 'sections/me.css';

@@ -1,0 +1,22 @@
+.btn {
+   display: inline-block;
+   padding-inline: var(--buttonPaddingX-md);
+   padding-block: var(--buttonPaddingY-md);
+   color: var(--whiteColor);
+   font: var(--buttonFont);
+   text-decoration: none;
+   border: 1px solid var(--whiteColor);
+   border-radius: var(--buttonRadius);
+}
+
+.btn--outline {
+   background-color: transparent;
+   color: var(--buttonColor);
+   border-color: var(--buttonColor);
+}
+
+.btn--active {
+   background-color: var(--buttonColor);
+   color: var(--whiteColor);
+   border: none;
+}

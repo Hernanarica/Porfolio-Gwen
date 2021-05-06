@@ -32,9 +32,17 @@ body {
 
 .wrapper-content {
    max-inline-size: var(--wrapper-content);
+   padding-inline: 1rem;
 }
 
 .wrapper,
 .wrapper-content {
    margin-inline: auto;
+}
+
+@media screen and (min-width: 920px) {
+   .wrapper-content {
+      padding-inline: 0;
+   }
+
 }
