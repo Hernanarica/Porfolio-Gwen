@@ -1,0 +1,25 @@
+.projects {
+   padding-block-start: 4rem;
+   padding-block-end: 2.375rem;
+   color: var(--grayColor);
+}
+
+.projects__title {
+   margin: 0;
+   margin-block-end: 2.5rem;
+   margin-inline-start: auto;
+   margin-inline-end: auto;
+   max-inline-size: 782px;
+   color: var(--whiteColor);
+   font: var(--headLine-4);
+}
+
+@media screen and (min-width: 920px) {
+   .projects__title {
+      max-inline-size: 782px;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      font: var(--headLine-2);
+      text-align: center;
+   }
+}

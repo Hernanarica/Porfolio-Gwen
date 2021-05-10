@@ -1,0 +1,24 @@
+.testimony__container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   inline-size: 13.5rem;
+   block-size: 12.5rem;
+   margin-inline-start: auto;
+   margin-inline-end: auto;
+   font-size: 0;
+}
+
+@media screen and (min-width: 543px) {
+   .testimonials__testimony {
+      display: flex;
+      gap: 2rem;
+   }
+}
+
+@media screen and (min-width: 910px) {
+   .testimony__container {
+      inline-size: 23.438rem;
+      block-size: 21.688rem;
+   }
+}

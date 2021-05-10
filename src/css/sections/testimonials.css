@@ -1,0 +1,17 @@
+.testimonials {
+   padding-block-start: 4rem;
+}
+
+.testimonials__title {
+   margin-block-start: 0;
+   margin-block-end: 2.5rem;
+   color: var(--whiteColor);
+   font: var(--headLine-4);
+}
+
+@media screen and (min-width: 920px) {
+   .testimonials__title {
+      margin-block-end: 5rem;
+      font: var(--headLine-2);
+   }
+}

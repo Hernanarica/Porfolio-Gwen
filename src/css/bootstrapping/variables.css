@@ -15,6 +15,7 @@
    --body-2: 400 0.875rem/1.688rem var(--fontFamilyBase);
    --bodyBold-2: 700 0.875rem/1.688rem var(--fontFamilyBase);
    --buttonFont: 400 1.125rem/1.688rem var(--fontFamilyBase);
+   --buttonFont-md: 700 4rem/4.75rem var(--fontFamilyBase);
    --captionFont: 400 0.75rem/1.688rem var(--fontFamilyBase);
 
    /* Colors */
@@ -30,8 +31,8 @@
    /* Components */
    --buttonPaddingX-md: 1.5rem;
    --buttonPaddingY-md: 0.75rem;
-   --buttonPaddingX-lg: 4rem;
-   --buttonPaddingY-lg: 1.188rem;
+   --buttonPaddingX-lg: 3.688rem;
+   --buttonPaddingY-lg: 0.75rem;
    --buttonRadius: 0.25rem;
 
    /* Wrappers */

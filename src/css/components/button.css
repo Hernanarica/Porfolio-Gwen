@@ -1,5 +1,7 @@
-.btn {
+.btn,
+.btn__card {
    display: inline-block;
+   block-size: 3.188rem;
    padding-inline: var(--buttonPaddingX-md);
    padding-block: var(--buttonPaddingY-md);
    color: var(--whiteColor);
@@ -7,6 +9,11 @@
    text-decoration: none;
    border: 1px solid var(--whiteColor);
    border-radius: var(--buttonRadius);
+}
+
+.btn__card {
+   padding-inline: var(--buttonPaddingX-lg);
+   padding-block: var(--buttonPaddingY-lg);
 }
 
 .btn--outline {
@@ -19,4 +26,12 @@
    background-color: var(--buttonColor);
    color: var(--whiteColor);
    border: none;
+}
+
+/*563px*/
+@media screen and (min-width: 563px) {
+   .btn__card {
+      padding-inline: var(--buttonPaddingX-md);
+      padding-block: var(--buttonPaddingY-md);
+   }
 }

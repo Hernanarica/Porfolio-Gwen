@@ -3,6 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta property="og:title" content="Porfolio de Gwen Stacy"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="https://hernanarica.github.io/Porfolio-Gwen/"/>
+		<meta property="og:image" content="https://github.com/Hernanarica/Porfolio-Gwen/blob/main/Thumbnail-portafolio_gwen.jpg?raw=true"/>
+		<meta property="og:description" content="Diseño y código de punta a punta de experiencias digitales innovadoras, sostenibles y flexibles."/>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="src/css/index.css"/>
@@ -14,23 +19,24 @@
 				<div class="wrapper-content">
 					<div class="header">
 						<h1 class="header__logo">Gwen Stacy
-							<a href="/" class="header__logo-link">
+							<a href="/" aria-current="page" class="header__logo-link">
 								<img src="src/assets/imgs/logo.png" width="151" height="24" alt="Logo Gwen Stacy" class="header__logo-image">
 							</a>
 						</h1>
 						<nav class="header__menu">
 							<ul class="header__list">
 								<li class="header__item">
-									<a href="#home" class="header__link">Home</a>
+									<a href="#home" aria-current="page" class="header__link">Home</a>
 								</li>
 								<li class="header__item">
-									<a href="#proyectos" class="header__link">Proyectos</a>
+									<a href="#projects" class="header__link">Proyectos</a>
 								</li>
 								<li class="header__item">
-									<a href="#testimonios" class="header__link">Testimonios</a>
+									<a href="#testimonials" class="header__link">Testimonios
+									</a>
 								</li>
 								<li class="header__item">
-									<a href="#contacto" class="header__link">Contacto</a>
+									<a href="#contact" class="header__link">Contacto</a>
 								</li>
 							</ul>
 						</nav>
@@ -44,21 +50,134 @@
 		<main>
 			<div class="wrapper">
 				<div class="wrapper-content">
-					<section class="me">
-						<h2 class="me__title">Diseño y código de punta a punta de experiencias digitales innovadoras, sostenibles y flexibles.</h2>
-						<p class="me__description">Soy una diseñadora y programadora de productos e interacción independiente centrado en las necesidades humanas, las posibilidades
-							técnicas y el éxito empresarial.
-						</p>
-						<a href="/" download="" class="btn btn--active">Descargar currículum</a>
-					</section>
+					<div class="main">
+						<section id="me" class="me">
+							<h2 class="me__title">Diseño y código de punta a punta de experiencias digitales innovadoras, sostenibles y flexibles.</h2>
+							<p class="me__description">Soy una diseñadora y programadora de productos e interacción independiente centrado en las necesidades humanas, las posibilidades
+								técnicas y el éxito empresarial.
+							</p>
+							<a href="/" download="" class="btn btn--active">Descargar currículum</a>
+						</section>
+						<section id="projects" class="projects">
+							<h2 class="projects__title">El trabajo que hago y los proyectos a los que he ayudado.</h2>
+							<div class="card">
+								<div class="card__image">
+									<picture>
+										<source media="(min-width: 360px)" srcset="src/assets/imgs/project__image-1-pc.jpg"/>
+										<img src="src/assets/imgs/project__image-1-mob.jpg" alt="Imagen de proyecto Niko"/>
+									</picture>
+								</div>
+								<h3 class="card__title">Niko</h3>
+								<p class="card__text">Creando un diseño visual elegante para una plataforma de calzado.</p>
+								<div class="card__buttons">
+									<a href="" target="_blank" class="btn__card btn--outline">Ver código del proyecto</a>
+									<a href="" target="_blank" class="btn__card btn--active">Ver detalle del proyecto</a>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture>
+										<source media="(min-width: 360px)" srcset="src/assets/imgs/project__image-2-pc.jpg"/>
+										<img src="src/assets/imgs/project__image-2-mob.jpg" alt="Imagen de proyecto Amazonas"/>
+									</picture>
+								</div>
+								<h3 class="card__title">Amazonas</h3>
+								<p class="card__text">Rediseñando el sitio Amazonas, aplicando múltiples funcionalidades.</p>
+								<div class="card__buttons">
+									<a href="#" target="_blank" class="btn__card btn--outline">Ver código del proyecto</a>
+									<a href="#" target="_blank" class="btn__card btn--active">Ver detalle del proyecto</a>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture>
+										<source media="(min-width: 360px)" srcset="src/assets/imgs/project__image-3-pc.jpg"/>
+										<img src="src/assets/imgs/project__image-3-mob.jpg" alt="Imagen de proyecto Spotifu"/>
+									</picture>
+								</div>
+								<h3 class="card__title">Spotifu</h3>
+								<p class="card__text">Con este ejercicio podrás desafiar tus habilidades como desarrollador frontend.</p>
+								<div class="card__buttons">
+									<a href="#" target="_blank" class="btn__card btn--outline">Ver código del proyecto</a>
+									<a href="#" target="_blank" class="btn__card btn--active">Ver detalle del proyecto</a>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture>
+										<source media="(min-width: 360px)" srcset="src/assets/imgs/project__image-4-pc.jpg"/>
+										<img src="src/assets/imgs/project__image-4-mob.jpg" alt="Imagen de proyecto Netnet"/>
+									</picture>
+								</div>
+								<h3 class="card__title">Netnet</h3>
+								<p class="card__text">Netnet es una de las plataformas de entretenimiento con más ranking a nivel...</p>
+								<div class="card__buttons">
+									<a href="#" target="_blank" class="btn__card btn--outline">Ver código del proyecto</a>
+									<a href="#" target="_blank" class="btn__card btn--active">Ver detalle del proyecto</a>
+								</div>
+							</div>
+						</section>
+						<section id="testimonials" class="testimonials">
+							<h2 class="testimonials__title">He tenido el privilegio de trabajar con múltiples empresas como.</h2>
+							<div class="testimonials__testimony">
+								<div class="testimony__container">
+									<picture>
+										<source media="(min-width: 910px)" srcset="src/assets/imgs/testimony-1-pc.png"/>
+										<img src="src/assets/imgs/testimony-1-mob.png" alt="Imagen del logo Nike" class="testimony__image"/>
+									</picture>
+								</div>
+								<div class="testimony__container">
+									<picture>
+										<source media="(min-width: 910px)" srcset="src/assets/imgs/testimony-2-pc.png"/>
+										<img src="src/assets/imgs/testimony-2-mob.png" alt="Imagen del logo Adidas" class="testimony__image"/>
+									</picture>
+								</div>
+								<div class="testimony__container">
+									<picture>
+										<source media="(min-width: 910px)" srcset="src/assets/imgs/testimony-3-pc.png"/>
+										<img src="src/assets/imgs/testimony-3-mob.png" alt="Imagen del logo Telcel" class="testimony__image"/>
+									</picture>
+								</div>
+							</div>
+						</section>
+						<section id="contact" class="contact">
+							<h2 class="contact__title">¿Quieres trabajar conmigo o simplemente tomar un café? - ¡Hazme ping!</h2>
+							<a href="#" class="contact__email">gwenstacy@gmail.com</a>
+						</section>
+					</div>
 				</div>
 			</div>
 		</main>
-		<!--		<footer>-->
-		<!--			<div class="wrapper">-->
-		<!--				<div class="wrapper-content"></div>-->
-		<!--			</div>-->
-		<!--		</footer>-->
+		<footer>
+			<div class="wrapper">
+				<div class="wrapper-content">
+					<div class="footer">
+						<div class="footer__social">
+							<h3 class="footer__social-title">Redes sociales</h3>
+							<ul class="footer__social-list">
+								<li class="footer__social-item">
+									<a href="#" target="_blank" class="footer__social-link">Instagram</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="#" target="_blank" class="footer__social-link">Youtube</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="#" target="_blank" class="footer__social-link">Linkedin</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__contact">
+							<h3 class="footer__contact-title">contacto</h3>
+							<ul class="footer__contact-list">
+								<li class="footer__contact-item">gwenstacy@gmail.com</li>
+								<li class="footer__contact-item">(405) 555-0128</li>
+								<li class="footer__contact-item">Detalles de facturación</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 		<script src="src/js/index.js"></script>
 	</body>
 </html>

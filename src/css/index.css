@@ -7,6 +7,12 @@
 @import 'components/TheHeader.css';
 @import 'components/logo.css';
 @import 'components/button.css';
+@import 'components/card.css';
+@import 'components/testimony.css';
 
 /* Secciones de mi web */
 @import 'sections/me.css';
+@import 'sections/projects.css';
+@import 'sections/testimonials.css';
+@import 'sections/contact.css';
+@import 'sections/footer.css';
